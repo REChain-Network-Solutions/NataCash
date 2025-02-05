@@ -1,0 +1,90 @@
+name: six_cash
+description: NataCash Project. 
+publish_to: 'none' #
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.15.0 <3.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  intl: any
+  cupertino_icons: ^1.0.8
+  get: ^4.6.6
+  shared_preferences: ^2.1.0
+  connectivity_plus: ^6.0.2
+  firebase_core: ^2.10.0
+  firebase_messaging: ^14.4.1
+  flutter_local_notifications: ^17.1.0
+  path_provider: ^2.1.3
+  dotted_border: ^2.1.0
+  flutter_contacts: ^1.1.7+1
+  azlistview: ^2.0.0
+  pin_code_fields: ^8.0.1
+  modal_bottom_sheet: ^3.0.0
+  slide_to_confirm: ^1.1.0
+  lottie: ^3.0.0
+  expandable_bottom_sheet: ^1.1.1+1
+  smooth_page_indicator: ^1.1.0
+  image_picker: ^1.1.0
+  country_code_picker: ^3.0.0
+  camera: ^0.10.5+9
+  http: ^0.13.6
+  carousel_slider: ^4.2.1
+  flutter_svg: ^2.0.5
+  flutter_html: ^3.0.0-beta.2
+  shimmer: ^3.0.0
+  permission_handler: ^11.3.1
+  share_plus: ^8.0.3
+  screenshot: ^2.3.0
+  gallery_saver: ^2.3.2
+  modal_progress_hud_nsn: ^0.5.1
+  phone_numbers_parser: ^8.2.1
+  local_auth: ^2.1.6
+  google_mlkit_barcode_scanning: ^0.10.0
+  google_mlkit_face_detection: ^0.9.0
+  cached_network_image: ^3.3.1
+  flutter_secure_storage: ^9.0.0
+  app_settings: ^5.1.1
+  percent_indicator: ^4.2.3
+  flutter_smart_dialog: ^4.9.6+1
+  device_info_plus: ^10.1.0
+  unique_identifier: ^0.3.0
+  url_launcher: ^6.2.6
+  flutter_inappwebview: ^6.0.0
+  scroll_to_index: ^3.0.1
+  flutter_fgbg: ^0.3.0
+  firebase_crashlytics: ^3.4.8
+
+
+dev_dependencies:
+  flutter_lints: ^3.0.2
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/image/
+    - assets/language/
+    - assets/animationFile/
+    - assets/payment/
+
+
+  fonts:
+    - family: Rubik
+      fonts:
+        - asset: assets/font/Rubik-Light.ttf
+          weight: 300
+        - asset: assets/font/Rubik-Regular.ttf
+          weight: 400
+        - asset: assets/font/Rubik-Medium.ttf
+          weight: 500
+        - asset: assets/font/Rubik-SemiBold.ttf
+          weight: 600
