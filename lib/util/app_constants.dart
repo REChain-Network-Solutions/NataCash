@@ -5,7 +5,7 @@ import 'images.dart';
 
 class AppConstants {
   static const String appName = 'NataCash';
-  static const String baseUrl = '6cash-admin.6amtech.com';
+  static const String baseUrl = 'https://6amtech.com/6cash';
   static const bool demo = true;
   static const double appVersion = 4.3;
   static const String customerPhoneCheckUri = '/api/v1/customer/auth/check-phone';
