@@ -80,7 +80,7 @@ dependencies {
     implementation("com.google.firebase:firebase-analytics")
     implementation 'com.google.mlkit:face-detection:16.1.5'
     implementation 'com.google.mlkit:barcode-scanning:17.0.2'
-    implementation 'com.huawei.agconnect:agconnect-core:1.5.2.300'
+    //implementation 'com.huawei.agconnect:agconnect-core:1.5.2.300'
 }
 
-apply plugin: 'com.huawei.agconnect'
+//apply plugin: 'com.huawei.agconnect'
